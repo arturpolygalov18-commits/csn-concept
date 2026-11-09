@@ -1,130 +1,125 @@
 <!doctype html>
 <html lang="ru">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="noindex,nofollow">
-  <meta name="theme-color" content="#151515">
-  <title>ЦСН · Центр строительных новаций</title>
-  <meta name="description" content="Технический заказчик, проектирование и строительная экспертиза. Центр строительных новаций.">
-  <link rel="icon" href="assets/logo-v2-source.png">
-  <link rel="stylesheet" href="styles.css?v=19">
-  <script src="assets/vendor/gsap.min.js" defer></script>
-  <script src="assets/vendor/ScrollTrigger.min.js" defer></script>
-  <script src="app.js?v=14" defer></script>
-  <script src="hero-edge-v16.js?v=16b" defer></script>
-  <script type="module" src="construction-frame-v17.js?v=20"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex"><meta name="description" content="Центр строительных новаций. Проектирование, строительство, строительный контроль и экспертиза.">
+<title>Центр строительных новаций</title>
+<link rel="icon" href="assets/logo-v2-source.png" type="image/png">
+<link rel="stylesheet" href="vendor/lenis.css">
+<link rel="stylesheet" href="styles.css?v=23d">
+<script src="hero-edge.js?v=17c" defer></script>
+<script src="vendor/gsap.min.js" defer></script>
+<script src="vendor/ScrollTrigger.min.js" defer></script>
+<script src="vendor/lenis.min.js" defer></script>
+<script src="company-motion.js?v=23d" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#main">К содержанию</a>
-  <main id="main" class="shell">
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <header class="header">
-          <a class="brand" href="#main" aria-label="Центр строительных новаций, главная"><img src="assets/logo-v2-source.png" width="140" height="138" alt="ЦСН"><span>Центр строительных<br>новаций</span></a>
-          <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation">Меню</button>
-          <nav id="navigation" aria-label="Основная навигация"><a href="https://csnstroy.ru/v2#rec2279369401">О компании</a><a href="#services">Услуги</a><button type="button" data-contact>Контакты</button></nav>
-        </header>
-        <div class="hero-content">
-          <h1 id="hero-title">Управляем строительством <br>от идеи до ввода объекта</h1>
-          <p class="hero-description">Технический заказчик, проектирование и строительная экспертиза. Представляем ваши интересы и контролируем сроки, качество и стоимость работ.</p>
-          <button class="button" type="button" data-contact>Обсудить проект</button>
-        </div>
-        <div class="hero-notes">
-          <div class="hero-note"><img src="assets/architect-model-v18.png" alt="" width="64" height="64"><div class="fact-value"><strong>5</strong><span>этапов</span></div><p>От подготовки задания<br>до передачи объекта</p></div>
-          <div class="hero-note"><img src="assets/concrete-detail-v18.png" alt="" width="64" height="64"><div class="fact-value"><strong>3</strong><span>вида<br>контроля</span></div><p>Качество работ,<br>сроки и расходы</p></div>
-          <div class="hero-note"><img src="assets/architecture-campus-v18.png" alt="" width="64" height="64"><div class="fact-value"><strong>1</strong><span>команда</span></div><p>Координация участников<br>на всех этапах стройки</p></div>
-        </div>
-      </div>
-      <figure class="hero-visual">
-        <img class="hero-scene" src="assets/hero-architecture-v16.png" width="1122" height="1402" alt="Архитектурная визуализация общественного здания с выносной кровлей" fetchpriority="high">
-        <div class="visual-contacts"><a href="tel:+79381517191"><span class="contact-caption">Обсудим ваш проект</span><span class="visual-phone">+7 (938) 151-71-91</span></a></div>
-      </figure>
-    </section>
+<a class="skip" href="#main">К содержанию</a>
+<main id="main">
+<section class="home-hero wrap" aria-labelledby="title">
+<div class="hero-copy">
+<header class="site-head hero-head">
+<a href="./" class="brand"><span class="mark"><img src="assets/logo-v2-source.png" alt="" width="34" height="34"></span><span>Центр строительных<br>новаций</span></a>
+<a href="tel:+79381517191" class="hero-phone"><small>Связаться с нами</small><span>+7 (938) 151-71-91</span></a>
+</header>
+<div class="hero-content"><h1 id="title">Управляем строительством <span class="h1-muted">от идеи до ввода объекта</span></h1><p>Берём на себя документацию, проектирование и организацию работ. Представляем интересы заказчика, контролируем сроки, бюджет и качество.</p></div>
+<div class="hero-action"><a class="button" href="#contacts">Обсудить проект</a><a class="hero-project-link" href="#workflow"><span class="project-thumbs" aria-hidden="true"><img src="assets/csn-before-v11.webp" alt="" width="50" height="50"><img src="assets/csn-during-v11.webp" alt="" width="50" height="50"><img src="assets/csn-handover-v11.webp" alt="" width="50" height="50"></span><span class="project-link-copy"><strong>Как мы работаем</strong><small>От подготовки до приёмки</small></span></a></div>
+</div>
+<figure class="hero-photo"><img class="hero-scene" src="assets/csn-hero-v17.webp" alt="Архитектурная иллюстрация общественного здания с выступами кровли и входного козырька" width="1122" height="1402" fetchpriority="high"><button class="hero-menu-toggle" type="button" aria-label="Открыть меню" aria-controls="hero-main-menu" aria-expanded="false"><span></span><span></span><span></span></button>
+<nav class="hero-menu-panel" id="hero-main-menu" aria-label="Основное меню" aria-hidden="true" inert hidden><a href="#company">О компании</a><a href="#services">Услуги</a><a href="#workflow">Как мы работаем</a><a href="#projects">Наши объекты</a><a href="#contacts">Контакты</a></nav></figure>
 
-    <section class="technology" id="services" aria-labelledby="services-title">
-      <div class="technology-story">
-        <h2 id="services-title">Технический заказчик.<br><span>От подготовки до ввода.</span></h2>
-        <p>Организуем работу проектировщиков и подрядчиков.<br class="desktop-break"> Проверяем, чтобы строительство шло по проекту, смете и графику.</p>
-        <div class="construction-scene" aria-label="Последовательная сборка каркаса здания">
-          <img class="build-stage stage-complete building-fallback" src="assets/frame-v17-fallback.png" width="712" height="450" alt="Открытый строительный каркас" loading="lazy">
-        </div>
-      </div>
-      <div class="technology-details">
-        <article class="technology-card">
-          <div class="detail-photo"><img src="assets/architect-model-v18.png" class="detail-project" width="150" height="150" alt="Архитектурный макет и чертежи" loading="lazy"></div>
-          <div><h3>Подготовка и проект</h3><p>Организуем изыскания, проектирование и прохождение экспертизы.</p></div>
-        </article>
-        <article class="technology-card">
-          <div class="detail-photo"><img src="assets/concrete-detail-v18.png" class="detail-structure" width="150" height="150" alt="Бетонные конструкции здания" loading="lazy"></div>
-          <div><h3>Контроль на стройке</h3><p>Проверяем материалы, качество работ, объёмы и сметы подрядчиков.</p></div>
-        </article>
-        <article class="technology-card">
-          <div class="detail-photo"><img src="assets/architecture-campus-v18.png" class="detail-complete" width="150" height="150" alt="Современное общественное здание" loading="lazy"></div>
-          <div><h3>Приёмка и ввод</h3><p>Проверяем документацию. Организуем приёмку и подготовку к вводу объекта.</p></div>
-        </article>
-      </div>
-      <div class="directions" aria-labelledby="directions-title">
-        <div class="directions-heading">
-          <h2 id="directions-title">Что требуется <br>вашему проекту?</h2>
-          <p class="directions-description">Сопровождаем строительство<br>от подготовки до ввода объекта.<span>Весь проект или отдельный этап.</span></p>
-        </div>
-        <div class="directions-viewport">
-        <div class="directions-grid" id="service-carousel">
-          <button class="direction-card" type="button" data-service="Технический заказчик" data-description="На каком этапе Ваш объект? Обсудим подготовку, контроль строительства и сдачу.">
-            <img src="assets/architecture-campus-v18.png" class="direction-building" alt="" width="500" height="420" loading="lazy">
-            <span class="direction-copy"><strong>Технический<br>заказчик</strong><span>Координация участников<br>и контроль проекта</span></span>
-          </button>
-          <button class="direction-card" type="button" data-service="Проектирование" data-description="Расскажите о назначении объекта и имеющейся документации. Обсудим задачу проектирования.">
-            <img src="assets/architect-model-v18.png" class="direction-model" alt="" width="500" height="420" loading="lazy">
-            <span class="direction-copy"><strong>Проектирование</strong><span>Подготовка проектных<br>решений и документации</span></span>
-          </button>
-          <button class="direction-card" type="button" data-service="Строительный контроль" data-description="Расскажите об объекте и текущем этапе работ. Обсудим проверку качества, объёмов и соответствия проекту.">
-            <img src="assets/brick-building-v18.png" class="direction-facade" alt="" width="500" height="420" loading="lazy">
-            <span class="direction-copy"><strong>Строительный<br>контроль</strong><span>Качество и объёмы работ,<br>соответствие проекту и смете</span></span>
-          </button>
-          <button class="direction-card" type="button" data-service="Судебная экспертиза" data-description="Опишите строительный спор и вопросы, которые требуется рассмотреть при экспертизе.">
-            <img src="assets/concrete-detail-v18.png" class="direction-glass" alt="" width="500" height="420" loading="lazy">
-            <span class="direction-copy"><strong>Судебная<br>экспертиза</strong><span>Исследование работ<br>и строительных конструкций</span></span>
-          </button>
-        </div>
-        </div>
-        <article class="service-detail" id="service-detail" aria-labelledby="service-detail-title" hidden>
-          <div class="service-detail-photo"><img id="service-detail-image" src="assets/architecture-campus-v18.png" alt="" width="600" height="700"></div>
-          <div class="service-detail-content">
-            <button class="service-detail-close" type="button">К списку услуг</button>
-            <h3 id="service-detail-title"></h3>
-            <p class="service-detail-intro" id="service-detail-intro"></p>
-            <h4>Что входит в работу</h4>
-            <ul id="service-detail-scope"></ul>
-            <p class="service-detail-result" id="service-detail-result"></p>
-            <div class="service-detail-next"><p id="service-detail-start"></p><button class="button" type="button" id="service-detail-contact">Обсудить задачу</button></div>
-          </div>
-        </article>
-        <div class="directions-bottom">
-          <button class="button" type="button" data-contact>Обсудить задачу</button>
-          <div class="carousel-controls" aria-label="Перелистывание услуг">
-            <button type="button" class="carousel-arrow" data-carousel-prev aria-label="Предыдущая услуга" aria-controls="service-carousel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 7-5 5 5 5"/></svg></button>
-            <button type="button" class="carousel-arrow" data-carousel-next aria-label="Следующая услуга" aria-controls="service-carousel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 7 5 5-5 5"/></svg></button>
-          </div>
-          <span id="carousel-status" class="sr-only" aria-live="polite" aria-atomic="true"></span>
-        </div>
-      </div>
-    </section>
-  </main>
+</section>
+<section class="wrap royal-group" aria-label="Сопровождение строительных проектов">
+<div class="royal-banner">
+<div class="royal-banner-copy"><h2>Сопровождение<br>строительных<br>проектов</h2><p>Технический заказчик, проектирование и строительно-техническая экспертиза. Подключаемся ко всему проекту или к отдельной задаче.</p></div>
+<div class="royal-building-frame"><img class="royal-building" src="assets/csn-royal-v9.webp" alt="Архитектурная иллюстрация офисного здания с кирпичной отделкой" width="1312" height="1199" loading="lazy"></div>
+</div>
 
-  <dialog id="contact-dialog" aria-labelledby="contact-title" aria-describedby="contact-description">
-    <button class="dialog-close" type="button" aria-label="Закрыть окно контактов"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg></button>
-    <div class="contact-visual" aria-hidden="true"><img src="assets/hero-architecture-v16.png" width="1122" height="1402" alt=""><div class="contact-brand"><img src="assets/logo-v2-source.png" width="48" height="48" alt=""><span>Центр строительных<br>новаций</span></div></div>
-    <div class="contact-content">
-      <p class="dialog-label">Связаться с ЦСН</p>
-      <h2 id="contact-title">Обсудим ваш объект</h2>
-      <p id="contact-description">Расскажите, что планируете построить и на каком этапе находится проект.</p>
-      <div class="contact-method"><span>Позвонить</span><a class="contact-phone" href="tel:+79381517191">+7 (938) 151-71-91</a></div>
-      <div class="contact-method"><span>Написать на почту</span><a class="contact-mail" href="mailto:mail@csnstroy.ru">mail@csnstroy.ru</a></div>
-    </div>
-  </dialog>
+</section>
+<section class="wrap service-mosaic service-mosaic-v21 service-mosaic-v22 service-mosaic-v23" id="services" aria-labelledby="service-title">
+<header class="mosaic-heading" data-reveal><div><p class="kicker">Услуги</p><h2 id="service-title">С чем <span>поможем</span></h2></div></header>
+<div class="mosaic-grid">
+<article class="mosaic-tile mosaic-main"><div class="mosaic-copy"><h3>Технический<br>заказчик</h3><p>Сопровождаем проект целиком или подключаемся к отдельной задаче. Готовим документы, координируем подрядчиков, контролируем сроки и качество работ.</p><a class="button" href="#contacts">Обсудить задачу</a></div><figure class="service-art service-art-customer"><img src="assets/service-customer-v23.webp" alt="Архитектурная иллюстрация общественного здания на участке" width="1536" height="1024" loading="lazy"></figure></article>
+<article class="mosaic-tile mosaic-expertise"><div class="mosaic-copy"><h3>Строительная<br>экспертиза</h3><p>Проверяем качество и объём работ, определяем причины дефектов и стоимость их устранения.</p></div><figure class="service-art service-art-expertise"><img src="assets/service-expertise-v23.webp" alt="Архитектурная иллюстрация каменного фасада с бордовой отделкой" width="1352" height="1163" loading="lazy"></figure></article>
+<article class="mosaic-tile mosaic-design"><div class="mosaic-copy"><h3>Проектирование</h3><p>Архитектура, конструкции и инженерные системы. Проектная и рабочая документация.</p></div><figure class="service-art service-art-design"><img src="assets/service-design-v23.webp" alt="Архитектурная иллюстрация здания с бордовым фасадом" width="1385" height="1136" loading="lazy"></figure></article>
+</div>
+</section>
+<section class="wrap company-collage" id="company" aria-labelledby="collage-title">
+<header class="collage-heading"><p class="kicker">О компании</p><h2 id="collage-title" data-scroll-words>Объединяем проектирование, контроль и управление строительством. Представляем интересы заказчика от первых решений до приёмки объекта.</h2></header>
+<div class="collage-body"><aside class="collage-narrative"><p data-scroll-note>Согласуем работу проектировщиков и подрядчиков. Проверяем документацию, объёмы и качество работ. Заказчик видит, как движется проект и на что расходуется бюджет.</p></aside>
+<div class="collage-stage" aria-label="Архитектура, конструкции и детали">
+<div class="collage-columns">
+<div class="collage-column column-one">
+<figure class="collage-card"><img src="assets/csn-civic-v9.webp" alt="Иллюстрация общественного здания с деревянной отделкой" width="1122" height="1402" loading="lazy"></figure>
+<figure class="collage-card"><img src="assets/csn-stairs-v9.webp" alt="Иллюстрация входной группы и деталей отделки" width="1122" height="1402" loading="lazy"></figure>
+</div>
+<div class="collage-column column-two">
+<figure class="collage-card"><img src="assets/csn-structure-v9.webp" alt="Иллюстрация несущего бетонного каркаса" width="1536" height="1024" loading="lazy"></figure>
+<figure class="collage-card"><img src="assets/csn-atrium-v9.webp" alt="Иллюстрация светлого общественного интерьера" width="1122" height="1402" loading="lazy"></figure>
+</div>
+<div class="collage-column column-three">
+<figure class="collage-card"><img src="assets/csn-glass-v9.webp" alt="Иллюстрация офисного здания со стеклянным фасадом" width="1122" height="1402" loading="lazy"></figure>
+<figure class="collage-card"><img src="assets/csn-roof-v9.webp" alt="Иллюстрация ритма колонн и перекрытий" width="1122" height="1402" loading="lazy"></figure>
+</div>
+<div class="collage-column column-four">
+<figure class="collage-card"><img src="assets/csn-warehouse-v9.webp" alt="Иллюстрация промышленного здания" width="1122" height="1402" loading="lazy"></figure>
+<figure class="collage-card"><img src="assets/csn-brickhall-v9.webp" alt="Иллюстрация обновлённого промышленного интерьера" width="1122" height="1402" loading="lazy"></figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="wrap support-section" id="project-support" aria-labelledby="support-title">
+<div class="support-scene support-red">
+<div class="support-building-frame"><img src="assets/support-building-v15.webp" alt="Архитектурная иллюстрация кирпичного общественного здания" width="1448" height="1086" loading="lazy"></div>
+<div class="support-intro">
+<p class="kicker">Сопровождение проекта</p>
+<h2 id="support-title">От первых решений<br><span>до приёмки объекта</span></h2>
+<p>Готовим исходные документы, сопровождаем проектирование, координируем подрядчиков и проверяем выполненные работы перед приёмкой.</p>
+<div class="support-action"><a class="button" href="#contacts">Обсудить задачу</a></div>
+</div>
+</div>
+
+</section>
+<section class="wrap process-story workflow-v22" id="workflow" aria-labelledby="workflow-title">
+<div class="process-layout process-scene">
+<header class="process-side"><h2 id="workflow-title">Как мы работаем</h2></header>
+<div class="process-body"><ol class="process-list">
+<li class="process-step"><article class="process-step-surface"><figure class="process-visual"><img src="assets/csn-before-v11.webp" alt="Архитектурный макет и чертежи" width="1536" height="1024" loading="lazy"></figure><div class="process-copy"><p class="process-label">Первый этап</p><h3>Разбираемся<br>в вашей задаче</h3><p>Обсуждаем объект, изучаем документы и уточняем, какая помощь нужна. Определяем, каких исходных данных не хватает.</p></div></article></li>
+<li class="process-step"><article class="process-step-surface"><figure class="process-visual"><img src="assets/csn-structure-v9.webp" alt="Несущий каркас здания" width="1536" height="1024" loading="lazy"></figure><div class="process-copy"><p class="process-label">Второй этап</p><h3>Согласуем<br>план работы</h3><p>Предлагаем состав услуг. Вместе определяем объём, последовательность действий, сроки и результат, который вы получите.</p></div></article></li>
+<li class="process-step"><article class="process-step-surface"><figure class="process-visual"><img src="assets/csn-during-v11.webp" alt="Кирпичный фасад и оконный узел" width="1536" height="1024" loading="lazy"></figure><div class="process-copy"><p class="process-label">Третий этап</p><h3>Выполняем<br>согласованные задачи</h3><p>Готовим проектные решения, координируем участников или проводим экспертизу. Обсуждаем с вами вопросы, влияющие на дальнейшую работу.</p></div></article></li>
+<li class="process-step"><article class="process-step-surface"><figure class="process-visual"><img src="assets/csn-handover-v11.webp" alt="Готовая входная группа здания" width="1536" height="1024" loading="lazy"></figure><div class="process-copy"><p class="process-label">Четвёртый этап</p><h3>Передаём<br>готовый результат</h3><p>Передаём документацию, отчёт или экспертное заключение. При сопровождении строительства участвуем в приёмке и передаче объекта.</p></div></article></li>
+</ol><div class="workflow-gallery" aria-hidden="true">
+<figure class="workflow-shot workflow-shot-1"><img src="assets/csn-before-v11.webp" alt="" width="1536" height="1024" loading="lazy"></figure>
+<figure class="workflow-shot workflow-shot-2"><img src="assets/csn-structure-v9.webp" alt="" width="1536" height="1024" loading="lazy"></figure>
+<figure class="workflow-shot workflow-shot-3"><img src="assets/csn-during-v11.webp" alt="" width="1536" height="1024" loading="lazy"></figure>
+<figure class="workflow-shot workflow-shot-4"><img src="assets/csn-handover-v11.webp" alt="" width="1536" height="1024" loading="lazy"></figure>
+</div></div></div></section>
+<section class="wrap projects-section" id="projects" aria-labelledby="projects-title">
+<header class="projects-heading"><div><p class="kicker">Проекты</p><h2 id="projects-title">Наши объекты</h2></div><p>Жилые, общественные<br>и промышленные здания.<small>Демонстрационные примеры</small></p></header>
+<div class="projects-stage projects-flow">
+<article class="project-tile"><button class="project-card" type="button" data-project="office" data-title="Деловой центр" data-service="Технический заказчик" data-description="Офисное здание с общественной входной группой." data-tasks="Согласование проектных решений;Координация подрядчиков;Контроль документации" aria-label="Об объекте: Деловой центр" aria-haspopup="dialog"><figure><img src="assets/project-office-thumb-v17.webp" data-full="assets/project-office-v16.webp" alt="Демонстрационная архитектурная иллюстрация: деловой центр" width="1122" height="1402" loading="lazy"><span class="project-demo">Демо</span><span class="project-open">Об объекте</span></figure><div class="project-caption"><h3>Деловой центр</h3><p>Технический заказчик</p></div></button></article>
+<article class="project-tile"><button class="project-card" type="button" data-project="warehouse" data-title="Складской комплекс" data-service="Организация строительства" data-description="Складские корпуса и административная часть." data-tasks="Подготовка документации;Контроль графика работ;Подготовка к приёмке" aria-label="Об объекте: Складской комплекс" aria-haspopup="dialog"><figure><img src="assets/project-warehouse-thumb-v17.webp" data-full="assets/project-warehouse-v16.webp" alt="Демонстрационная архитектурная иллюстрация: складской комплекс" width="1122" height="1402" loading="lazy"><span class="project-demo">Демо</span><span class="project-open">Об объекте</span></figure><div class="project-caption"><h3>Складской комплекс</h3><p>Организация строительства</p></div></button></article>
+<article class="project-tile"><button class="project-card" type="button" data-project="civic" data-title="Общественный центр" data-service="Проектирование" data-description="Общественное здание с залами и входной площадью." data-tasks="Архитектурные решения;Конструктивные решения;Рабочая документация" aria-label="Об объекте: Общественный центр" aria-haspopup="dialog"><figure><img src="assets/project-civic-thumb-v17.webp" data-full="assets/project-civic-v16.webp" alt="Демонстрационная архитектурная иллюстрация: общественный центр" width="1122" height="1402" loading="lazy"><span class="project-demo">Демо</span><span class="project-open">Об объекте</span></figure><div class="project-caption"><h3>Общественный центр</h3><p>Проектирование</p></div></button></article>
+<article class="project-tile"><button class="project-card" type="button" data-project="housing" data-title="Жилой квартал" data-service="Сопровождение проекта" data-description="Жилые дома с благоустроенным двором." data-tasks="Координация участников;Контроль качества работ;Проверка исполнительной документации" aria-label="Об объекте: Жилой квартал" aria-haspopup="dialog"><figure><img src="assets/project-housing-thumb-v17.webp" data-full="assets/project-housing-v16.webp" alt="Демонстрационная архитектурная иллюстрация: жилой квартал" width="1122" height="1402" loading="lazy"><span class="project-demo">Демо</span><span class="project-open">Об объекте</span></figure><div class="project-caption"><h3>Жилой квартал</h3><p>Сопровождение проекта</p></div></button></article>
+<article class="project-tile"><button class="project-card" type="button" data-project="school" data-title="Учебный корпус" data-service="Проектирование" data-description="Учебное здание с кабинетами и общими пространствами." data-tasks="Планировочные решения;Инженерные системы;Сопровождение экспертизы" aria-label="Об объекте: Учебный корпус" aria-haspopup="dialog"><figure><img src="assets/project-school-thumb-v17.webp" data-full="assets/project-school-v16.webp" alt="Демонстрационная архитектурная иллюстрация: учебный корпус" width="1122" height="1402" loading="lazy"><span class="project-demo">Демо</span><span class="project-open">Об объекте</span></figure><div class="project-caption"><h3>Учебный корпус</h3><p>Проектирование</p></div></button></article>
+<article class="project-tile"><button class="project-card" type="button" data-project="production" data-title="Производственное здание" data-service="Технический заказчик" data-description="Производственный корпус с административным блоком." data-tasks="Подготовка задания;Организация работ;Приёмка объекта" aria-label="Об объекте: Производственное здание" aria-haspopup="dialog"><figure><img src="assets/project-production-thumb-v17.webp" data-full="assets/project-production-v16.webp" alt="Демонстрационная архитектурная иллюстрация: производственное здание" width="1122" height="1402" loading="lazy"><span class="project-demo">Демо</span><span class="project-open">Об объекте</span></figure><div class="project-caption"><h3>Производственное здание</h3><p>Технический заказчик</p></div></button></article>
+</div>
+</section>
+</main>
+<footer class="haven-contact" id="contacts" aria-labelledby="contact-title">
+<div class="haven-copy wrap">
+<h2 id="contact-title">Обсудим<br><span class="haven-title-line">Ваш <img src="assets/csn-inset-v9.webp" alt="" width="1983" height="793" loading="lazy"> проект</span></h2>
+<p>Планируете строительство, нужна помощь с проектом<br class="desktop-break"> или экспертизой? Расскажите о своей задаче.</p>
+<form class="haven-form" aria-label="Обсудить проект">
+<label class="visually-hidden" for="contact-phone">Телефон для связи</label>
+<input id="contact-phone" name="phone" type="tel" autocomplete="tel" placeholder="Телефон для связи" required minlength="7" maxlength="28">
+<button class="button" type="submit">Обсудить проект</button>
+</form>
+<p class="haven-form-status" role="status" aria-live="polite"></p>
+</div>
+<div class="haven-building"><img src="assets/csn-contact-v9.webp" alt="Архитектурная иллюстрация общественного здания" width="2103" height="748" loading="lazy"></div>
+</footer>
+<dialog class="project-dialog" id="project-dialog" aria-labelledby="project-dialog-title"><button class="project-close" type="button">Закрыть</button><div class="project-dialog-grid"><img class="project-dialog-image" src="assets/project-office-thumb-v17.webp" data-full="assets/project-office-v16.webp" alt="" width="1122" height="1402"><div class="project-dialog-copy"><p class="kicker">Демонстрационный объект</p><h2 id="project-dialog-title"></h2><p class="project-dialog-service"></p><p class="project-dialog-description"></p><h3>Задачи проекта</h3><ul class="project-dialog-tasks"></ul><p class="project-dialog-note">Изображение и описание созданы для макета. Реальные объекты ЦСН добавим по материалам компании.</p><a class="button project-dialog-contact" href="#contacts">Обсудить похожую задачу</a></div></div></dialog>
 </body>
 </html>
-
-
